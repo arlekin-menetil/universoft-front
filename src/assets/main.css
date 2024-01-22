@@ -1,0 +1,47 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+footer{
+    @apply bg-black text-white/50 w-full; 
+  }
+  @layer footer{
+    .footer_menu{
+      @apply flex justify-around mb-[38px];
+    }
+    .footer_icons{
+      @apply mt-[52px]  flex w-[160px] justify-between;
+    }
+    @layer footer_icons{
+    .footer_icons img{
+  @apply w-[40px] h-[40px];
+    }
+  }
+  .footer_category img{
+  @apply mb-[28px];
+  }
+  .footer_category li{
+    @apply my-[13px];
+  }
+  .footer_copyright{
+    @apply flex flex-col items-center justify-center pb-[35px];
+  }
+  @layer footer_copyright{
+    .footer_copyright img{
+      @apply mb-[20px];
+    }
+  }
+  }
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}

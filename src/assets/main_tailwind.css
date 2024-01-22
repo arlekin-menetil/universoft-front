@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper{
+  @apply min-w-[320px] max-w-[1920px] px-[auto] overflow-x-hidden;
+}
+header{
+  @apply w-full mx-[auto] pt-[30px] bg-black/70 w-full h-screen flex flex-col justify-center items-center;
+}
+@layer header{
+  @import url("../assets/DrukCyr-Medium/style.css");
+  .up_menu{
+    @apply w-full px-[auto] flex justify-around items-center mb-[150px];
+  }
+  .nav{
+    @apply text-white/50 w-[608px];
+  }
+  .nav ul{
+    @apply flex w-full justify-between;
+  }
+  .header_video{
+    @apply w-full h-screen absolute left-0 top-0 z-[-1] object-cover;
+  }
+  .contact_us{
+    @apply flex justify-around w-[270px] items-center;
+  }
+ @layer contact_us{
+  .language{
+    @apply h-[17px] w-[35px] ;
+  }
+  .number{
+    @apply bg-white;
+  }
+  @layer number{
+    .number button{
+      @apply w-[208px] h-[48px] text-center;
+    }
+    .number a{
+      @apply rounded-2xl;
+    }
+  }
+  .text_info{
+    @apply h-[80vh] text-white flex flex-col justify-center items-center text-center;
+  }
+  @layer text_info{
+    .text_info h2{
+      @apply  mt-[250px];
+    }
+    .text_info a{
+      @apply mt-[45px] py-[26px] px-[40px] rounded-3xl;
+    }
+ } 
+}
+}
+/*средняя часть*/
+main{
+  @apply w-[1400px] bg-black w-full pt-[150px] px-[auto] overflow-x-hidden;
+}
+@layer main{
+.company_work{
+  @apply w-full flex flex-col justify-center items-center mb-[123px]; 
+}
+.our_client{
+  @apply  w-full flex flex-col justify-center items-center w-full mb-[250px] px-[auto];
+}
+@layer our_client{
+  .our_client img{
+    @apply mb-[70px];
+  }
+}
+/*company*/
+.company{
+  @apply w-full px-[auto] flex flex-col justify-center items-center;
+}
+@layer company{
+  .earth{
+    @apply w-[140px] h-[140px];
+  }
+  .about_company{
+    @apply mt-[45px] flex flex-col justify-center items-center text-center text-white;
+  }
+  @layer about_company{
+   .about_company img{
+    @apply my-[45px];
+   }
+   .about_company p{
+    @apply mb-[20px];
+   }
+      }
+  }
+  .infiniti_earth{
+    @apply w-full;
+  }
+  @layer infiniti_earth{
+.video_earth{
+  @apply w-[3200px] h-[1700px] ml-[-600px] object-cover; 
+}
+.servises{
+  @apply bg-black flex;
+}
+  }
+  .service{
+    @apply mt-[-950px] px-[auto] w-full flex flex-wrap justify-center items-center;
+  }
+  @layer service{
+    .servis{
+      @apply flex justify-center mx-auto;
+    }
+    .serve{
+      @apply bg-black w-[446px] h-[550px] ml-[30px] mb-[52px] flex flex-col justify-center items-center text-white/50 text-center;
+    }
+    .serve video{
+      @apply w-[272px] h-[272px];
+    }
+  }
+  .atom{
+    @apply w-full bg-black flex flex-col justify-center items-center text-white/50 text-center;
+  }
+  @layer atom{
+    .atom video{
+      @apply w-[140px] h-[140px] mt-[100px] mb-[46px];
+    }
+    .servises{
+      @apply bg-black w-full flex flex-wrap justify-between items-center;
+    }
+  }
+  .line{
+    @apply w-full mx-[auto] flex justify-center items-center mb-[100px];
+  }
+  .universoft_portfolio{
+    @apply w-full flex mt-[57px] mb-[159px];
+  }
+  .message{
+    @apply w-full bg-black flex flex-col justify-center items-center text-white/50 text-center;
+  }
+  @layer message{
+    .message video{
+      @apply w-[140px] h-[140px] mb-[46px];
+    }
+  }
+
+  .univework{
+    @apply mt-[115px] flex justify-center text-center text-white/50 items-start;
+  }
+  .univework a{
+    @apply py-[23px] px-[53px] rounded-3xl;
+  }
+  @layer univework{
+    .uzgard{
+      @apply w-[453px] h-[560px] flex flex-col items-center justify-start;
+    }
+    @layer uzgard{
+      .uzgard img{
+        @apply w-[260px] h-[50px] mb-[63px];
+      }
+      .uzgard a{
+        @apply mt-[80px];
+      }
+    }
+    .siema{
+      @apply w-[453px] h-[560px] flex flex-col items-center justify-start;
+    }
+    @layer siema{
+      .siema img{
+        @apply w-[166px] h-[86px] mb-[30px];
+      }
+      .siema a{
+        @apply mt-[80px];
+      }
+    }
+    .dc{
+      @apply w-[453px] h-[560px] flex flex-col items-center justify-start;
+    }
+    @layer dc{
+      .dc img{
+        @apply w-[158px] h-[82px] mb-[40px];
+      }
+      .dc a{
+        @apply mt-[150px];
+      }
+    }
+  }
+  .logo_company{
+    @apply mx-[auto] mb-[60px] w-[1400px] flex justify-center items-center;
+  }
+  @layer logo_company{
+    .logo_company img{
+      @apply w-full;
+    }
+  }
+}
+
+/*подвал*/
+footer{
+  @apply bg-black text-white/50 w-full; 
+}
+@layer footer{
+  .footer_menu{
+    @apply flex justify-around mb-[38px];
+  }
+  .footer_icons{
+    @apply mt-[52px]  flex w-[160px] justify-between;
+  }
+  @layer footer_icons{
+  .footer_icons img{
+@apply w-[40px] h-[40px];
+  }
+}
+.footer_category img{
+@apply mb-[28px];
+}
+.footer_category li{
+  @apply my-[13px];
+}
+.footer_copyright{
+  @apply flex flex-col items-center justify-center pb-[35px];
+}
+@layer footer_copyright{
+  .footer_copyright img{
+    @apply mb-[20px];
+  }
+}
+}
+
+
+
+
+/*Наши партнеры*/
+.box{
+  @apply w-full h-screen flex justify-center items-center relative bg-black;
+}
+.text_partners{
+  @apply flex flex-col justify-center text-center items-center;
+}
+@layer text_partners{
+  .info_partners{
+    @apply flex flex-col justify-center items-center;
+  }
+  .bg{
+    @apply flex  flex-col justify-center items-center bg-black;
+  }
+}
