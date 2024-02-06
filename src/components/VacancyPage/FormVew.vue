@@ -1,45 +1,49 @@
-<script setup></script>
+<script setup>
+
+function reset() {
+    let name = document.getElementById("name")
+    let phone = document.getElementById("phone")
+
+    if (name.value != "" && phone.value != "") {
+        name.value = ""
+        phone.value = ""
+    }
+}
+
+</script>
+
 
 <template>
     <div class="form">
         <div class="text">
-            <h1>Отправить резюме</h1>
-            <p>Поскольку вы работаете с одним из лучших сайтов IT-компаний,<br> 
-                я рекомендую вам следовать следующим рекомендациям:</p>
-                <ul>
-                <li>Фронтенд (ReactJS)</li>
-                <li>Бэкэнд (PHP)</li>
-                <li>UI/UX дизайнер</li>
-                <li>Менеджер проекта (PM)</li>
-                <li>Мобильный разработчик (React)</li>
-            </ul>
-                <p>Мы приветствуем каждого кандиду, претенующего на наши<br>
-                    вакансии. Присоединяйтесь к нам и нашему дружному<br>
-                    коллективу, который гарантирует личностное развитие и<br>
-                    уверенность в завтрашнем дне!</p>
+            <h1>Наш адрес</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27763.617126757857!2d69.22885644003583!3d41.25958986301304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a991b500001%3A0x96c481676b0cf361!2sSource%20to%20pay!5e0!3m2!1sen!2s!4v1707204578747!5m2!1sen!2s"
+                width="500" height="340" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-     <div class="information_form">
-        <h2>Заполните форму!</h2>
-        <div class="name">
-            <h3>Ваше имя</h3>
-            <input type="text" placeholder="Имя">
-        </div>
-        <div class="phone">
-            <h3>Номер телефона</h3>
-            <input type="tel" placeholder="+998 (__) ___-__-__">
-        </div>     
-        <div class="resume">
+        <div class="information_form">
+            <h2>Заполните форму!</h2>
+            <div class="name">
+                <h3>Ваше имя</h3>
+                <input type="text" id="name" placeholder="Имя">
+            </div>
+            <div class="phone">
+                <h3>Номер телефона</h3>
+                <input type="tel" id="phone" name="phone" placeholder="+998 (__) ___-__-__"/>
+            </div>
+            <!-- <div class="resume">
             <h3>Резюме</h3>
             <input type="file" id="file">
             <label for="file">Выберите файл</label>
-        </div>
-        <button>Отправить</button>
+        </div> -->
+            <button @click="reset">Отправить</button>
         </div>
     </div>
 </template>
 
 <style>
-.form{
+.form {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -50,21 +54,26 @@
     align-items: center;
     padding-top: 100px;
 }
+
 /*text info*/
-.text h1{
-    margin-bottom: -60px;
+.text h1 {
     color: #fff;
     font-weight: bold;
 }
-.text p{
-    margin-bottom: 20px;
-    color: #8F8F8F;
-}
-.text ul{
+
+.text ul {
     margin-bottom: -70px;
     color: #8F8F8F;
 }
-.form input{
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.form input {
     width: 456px;
     height: 40px;
     margin-bottom: 30px;
@@ -74,17 +83,18 @@
     padding-left: 20px;
     z-index: 1;
     color: #fff;
-    margin-left: 35px;
 }
-input[type="file"]{
+
+input[type="file"] {
     display: none;
 }
-.form h3{
+
+.form h3 {
     margin-bottom: 8px;
     color: #fff;
-    margin-left: 35px;
 }
-label{
+
+label {
     width: 456px;
     height: 40px;
     position: absolute;
@@ -92,38 +102,41 @@ label{
     border: 1px solid #82F7FF;
     background: url(../../../public/icons/Frame.svg) no-repeat center right;
     background-position-x: 420px;
-    padding-top:5px;
+    padding-top: 5px;
     padding-left: 20px;
     border-radius: 10px;
-    margin-left: 35px;
 }
-.information_form{
+
+.information_form {
     width: 529px;
-    height: 490px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     padding-top: 22px;
-    background: rgba(22,168,211,0.15);
+    background: rgba(22, 168, 211, 0.15);
     backdrop-filter: blur(5px);
-    box-shadow: 0px -1px 10px 2px rgba(130,247,255, 0.5) inset;
+    box-shadow: 0px -1px 10px 2px rgba(130, 247, 255, 0.5) inset;
+    flex-wrap: wrap;
+    align-content: center;
 }
-.information_form h2{
+
+.information_form h2 {
     text-align: center;
     font-size: 25px;
     color: #82F7FF;
     font-weight: bold;
 }
-.information_form button{
+
+.information_form button {
     position: relative;
-    top: 90px;
     padding: 22px 0;
     font-size: 16px;
-    width: 500px;
+    width: 456px;
     color: #000;
     font-weight: bold;
     background: #82F7FF;
     border: none;
     border-radius: 15px;
-    margin-left: 15px;
+    cursor: pointer;
 }
 </style>

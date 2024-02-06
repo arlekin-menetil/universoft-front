@@ -17,11 +17,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-    {
-      path: '/vacancy',
-      name: 'vacancy',
-      component: () => import('../views/VacancyVuew.vue')
-    },
+    // {
+    //   path: '/vacancy',
+    //   name: 'vacancy',
+    //   component: () => import('../views/VacancyVuew.vue')
+    // },
     {
       path: '/service',
       name: 'service',
@@ -32,11 +32,11 @@ const router = createRouter({
       name: 'portfolio',
       component: () => import('../views/PortfolioView.vue')
     },
-    //     {
-    //   path: '/contact',
-    //   name: 'contact',
-    //   component: () => import('../views/ContactVuew.vue')
-    // },
+        {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/ContactVuew.vue')
+    },
     {
       path: '/partners',
       name: 'partners',
