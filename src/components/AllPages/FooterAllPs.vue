@@ -78,6 +78,7 @@ footer{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
 }
 footer img{
   width: 100%;
@@ -117,6 +118,7 @@ footer img{
 .footer_icons img{
   width: 40px;
   height: 40px;
+  margin-right: 10px;
 }
 .footer_category{
 width: 174px;

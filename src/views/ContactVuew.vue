@@ -1,6 +1,7 @@
 <script setup>
 import DefaultHeaderView from '@/components/AllPages/Header/DefaultHeaderView.vue';
-import FormView from '../components/VacancyPage/FormVew.vue'
+import FormView from '../components/VacancyPage/FormVew.vue';
+import Footer from '@/components/AllPages/FooterAllPs.vue';
 
 </script>
 
@@ -14,7 +15,7 @@ import FormView from '../components/VacancyPage/FormVew.vue'
               </video>
         </div>
         <FormView />
-        
+        <Footer />
     </div>
     
 </template>

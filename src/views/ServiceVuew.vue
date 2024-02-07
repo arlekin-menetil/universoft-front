@@ -1,5 +1,6 @@
 <script setup>
 import DefaultHeaderView from '@/components/AllPages/Header/DefaultHeaderView.vue';
+import Footer from '@/components/AllPages/FooterAllPs.vue'
 </script>
 
 <template>
@@ -30,6 +31,7 @@ import DefaultHeaderView from '@/components/AllPages/Header/DefaultHeaderView.vu
             </div>
         </div>
     </div>
+    <Footer />
 </template>
 
 
