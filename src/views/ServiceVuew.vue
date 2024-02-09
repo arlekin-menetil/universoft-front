@@ -22,12 +22,19 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
                 "ИТ решения, которые преобразуют ваш бизнес: наши предложения для клиентов, нацеленные на рост и эффективность."
             </div>
 
-            <div class="buttons">
-                <div class="button-1" id="btn-anim">Разработка сайтов</div>
-                <div class="button-2" id="btn-anim">Реклама в СМИ</div>
-                <div class="button-3" id="btn-anim">Разработка AI</div>
-                <div class="button-4" id="btn-anim">CRM</div>
-                <div class="button-5" id="btn-anim">Mobile apps</div>
+            <div class="buttons-left">
+                <div class="button-1">Токены ЭЦП</div>
+                <div class="button-2">Мессенджер</div>
+                <div class="button-3">Криптомаршрутизаторы</div>
+                <div class="button-4">Операционная система</div>
+                <div class="button-5">SOC центр</div>
+            </div>
+            <div class="buttons-right">
+                <div class="button-6" ><div class="text-right">Антивирус</div></div>
+                <div class="button-7" ><div class="text-right">DLP система</div></div>
+                <div class="button-8" ><div class="text-right">Etracker. Мониторинг ТС</div></div>
+                <div class="button-9" ><div class="text-right">Разработка AI</div></div>
+                <div class="button-10" ><div class="text-right">Разработка сложных систем</div></div>
             </div>
         </div>
     </div>
@@ -43,7 +50,7 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     background-position: center;
     background-size: cover;
     width: 750px;
-    height: 750px;
+    height: 600px;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -77,7 +84,7 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     color: #EBEBEB;
 }
 
-.buttons {
+.buttons-left {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -85,22 +92,28 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     left: -32%;
     transform: translateY(-50%);
     position: absolute;
-    font-size: 14px;
+    font-size: 13px;
     color: var(--Cyan, #82F7FF);
     text-align: center;
     justify-content: center;
 }
 
-#btn-anim {
-    transition: 0.2s;
-    cursor: pointer;
+.buttons-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    top: 50%;
+    left: 98%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 13px;
+    color: var(--Cyan, #82F7FF);
+    text-align: center;
+    justify-content: center;
 }
 
-#btn-anim:hover {
-    transform: scale(1.3) translateX(-10%);
-}
 
-.buttons .button-1{
+.buttons-left .button-1{
     background: url('../../public/images/Vector1.png');
     width: 253.714px;
     height: 67.641px;
@@ -108,7 +121,7 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     margin-left: 29%;
     line-height: 67.641px;
 }
-.buttons .button-2{
+.buttons-left .button-2{
     background: url('../../public/images/Vector2.svg');
     width: 221.956px;
     height: 67.641px;
@@ -116,7 +129,7 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     line-height: 67.641px;
 }
-.buttons .button-3{
+.buttons-left .button-3{
     background: url('../../public/images/Vector3.svg');
     width: 245.199px;
     height: 88.576px;
@@ -124,7 +137,7 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     line-height: 88.576px;
     margin-left: 2.5%;
 }
-.buttons .button-4{
+.buttons-left .button-4{
     background: url('../../public/images/Vector4.svg');
     width: 222.895px;
     height: 67.641px;
@@ -133,13 +146,66 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     line-height: 67.641px;
     
 }
-.buttons .button-5{
+.buttons-left .button-5{
     background: url('../../public/images/Vector5.png');
     width: 258.034px;
     height: 67.641px;
     margin-left: 27%;
     flex-shrink: 0;
     line-height: 67.641px;
+}
+
+.buttons-right .button-6{
+    background: url('../../public/images/Vector1.png');
+    width: 253.714px;
+    height: 67.641px;
+    flex-shrink: 0;
+    margin-left: -27%;
+    line-height: 67.641px;
+    transform: rotateY(180deg);
+}
+.buttons-right .button-7{
+    background: url('../../public/images/Vector2.svg');
+    width: 221.956px;
+    height: 67.641px;
+    margin-left: -6%;
+    flex-shrink: 0;
+    line-height: 67.641px;
+    transform: rotateY(180deg);
+
+}
+.buttons-right .button-8{
+    background: url('../../public/images/Vector3.svg');
+    width: 245.199px;
+    height: 88.576px;
+    flex-shrink: 0;
+    line-height: 88.576px;
+    margin-left: 2%;
+    transform: rotateY(180deg);
+
+}
+.buttons-right .button-9{
+    background: url('../../public/images/Vector4.svg');
+    width: 222.895px;
+    height: 67.641px;
+    margin-left: -7%;
+    flex-shrink: 0;
+    line-height: 67.641px;
+    transform: rotateY(180deg);
+    
+}
+.buttons-right .button-10{
+    background: url('../../public/images/Vector5.png');
+    width: 258.034px;
+    height: 67.641px;
+    margin-left: -27%;
+    flex-shrink: 0;
+    line-height: 67.641px;
+    transform: rotateY(180deg);
+}
+
+.text-right {
+    transform: rotateY(180deg);
 }
 
 .videoback{
