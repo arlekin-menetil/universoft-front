@@ -4,6 +4,7 @@
 
 <template>
     <div class="bg_Earth">
+        <div class="text"><h2>НАШИ КЛИЕНТЫ ИЗ ВСЕГО МИРА</h2></div>
         <div class="video">
             <video muted loop autoplay plays-inline>
                 <source src="../../../public/video/ConsutVideo.webm">

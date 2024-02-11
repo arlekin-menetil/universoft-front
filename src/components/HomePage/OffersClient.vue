@@ -4,25 +4,17 @@
 
 <template>
     <div class="offers">
-        <div class="">
+        <div class="videoback">
             <video muted loop autoplay plays-inline >
                 <source src="../../../public/video/earth.mp4" />
               </video>
               <div class="text">
                 <h2>Что мы предлогаем<br> нашим клиентам</h2>
+               <p>Universoft-IT является ведущей компанией в области информационных технологий,<br> специализирующейся на разработке инновационного программного обеспечения</p>
             </div>
         </div>
-        <br>
-        <br>
         <div class="service">
             <div class="our_service">
-            <div class="web">
-                <video muted loop autoplay plays-inline>
-                    <source src="../../../public/video/Sait.webm">
-                </video>
-                <h3>Разработка сайтов</h3>
-                <p>Качественный сайт – это основа продвижения<br> Вашего бизнеса в интернете.</p>
-            </div>
             <div class="smm">
                 <video muted loop autoplay plays-inline>
                     <source src="../../../public/video/SMI.webm">
@@ -38,6 +30,7 @@
                 <p>ИИ обрабатывать большие объемы данных, выявлять закономерности идентифицировать информацию.</p>
             </div>
         </div>
+
         </div>
         <img src="../../../public/bground/line.png" alt="">
     </div>
@@ -90,4 +83,5 @@
 .our_service h3{
     margin-bottom: 25px;
 }
+
 </style>

@@ -14,7 +14,15 @@
 
 <style>
 .consultate{
-
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
 }
 .consultate p{
 margin-top: 31px;

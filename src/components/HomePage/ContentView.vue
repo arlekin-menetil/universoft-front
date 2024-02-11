@@ -45,7 +45,7 @@
 <style>
 .Content{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background: #000 url('../../../public/bground/grid.svg') no-repeat right top;
     display: flex;
     justify-content: center;

@@ -1,17 +1,17 @@
 <script setup>
-import DefaultHeaderView from '@/components/AllPages/Header/DefaultHeaderView.vue';
-import Company from '../components/HomePage/AboutCom.vue'
-import BigEarth from '../components/HomePage/ClientWorld.vue'
-import Offers from '../components/HomePage/OffersClient.vue'
-import ContentView from '../components/HomePage/ContentView.vue'
+import HeaderView from '../components/AllPages/Header/NavVuewAbout.vue'
+import Consult from '../components/AboutPage/ConsulTate.vue'
+import Company from '../components/AboutPage/ContentView.vue'
+import History from '../components/AboutPage/HistoryVue.vue'
+import Footer from '../components/AllPages/FooterVuew.vue'
 </script>
 <template>
   <div class="About">
-    <DefaultHeaderView />
-    <BigEarth />
+    <HeaderView />
+    <Consult />
     <Company />
-    <ContentView />
-    <Offers/>
+    <History />
+    <Footer />
   </div>
 </template>
 

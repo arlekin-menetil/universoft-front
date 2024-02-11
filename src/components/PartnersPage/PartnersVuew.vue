@@ -2,100 +2,62 @@
 </script>
 
 <template>
-<div class="wrappe">
-        <div class="box">
-        <div class="carusel">
-            <span style="--i:1;">
-                <a href="#"><img src="../../../public/carusel/Davlocal.png" alt=""></a>
-            </span>
-            <span style="--i:2;">
-                <a href="#"><img src="../../../public/carusel/Uzguard.png" alt=""></a>
-            </span>
-            <span style="--i:3;">
-                <a href="#"><img src="../../../public/carusel/Davlocal.png" alt=""></a>
-            </span>
-            <span style="--i:4;">
-                <a href="#"><img src="../../../public/carusel/Uzguard.png" alt=""></a>
-            </span>
-            <span style="--i:5;">
-                <a href="#"><img src="../../../public/carusel/Uzguard.png" alt=""></a>
-            </span>
-            <span style="--i:6;">
-                <a href="#"><img src="../../../public/carusel/Davlocal.png" alt=""></a>
-            </span>
-            <span style="--i:7;">
-                <a href="#"><img src="../../../public/carusel/Uzguard.png" alt=""></a>
-            </span>
-            <span style="--i:7;">
-                <a href="#"><img src="../../../public/carusel/Uzguard.png" alt=""></a>
-            </span>
-        </div>
+<div class="Partners">
+    <div class="box">
+        <span style="--i:1;"><a href=""><h3>Asbis</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:2;"><a href=""><h3>Axsoft</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:3;"><a href=""><h3>Актив-Софт</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:4;"><a href=""><h3>Анлиметед<br> Продакшн</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:5;"><a href=""><h3>Лаборатория <br>Касперского</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:6;"><a href=""><h3>Positive<br> Technologies</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:7;"><a href=""><h3>BaseAlt</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:8;"><a href=""><h3>InfoWatch</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:9;"><a href=""><h3>Код <br>Безопасности</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:10;"><a href=""><h3>Security<br> Vision</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:11;"><a href=""><h3>Teltonika</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
     </div>
-    <div class="text_partners">
-        <div class="info_partners">
-        <img src="../../public/carusel/Наши_партнёры.svg" alt="">
-        <img src="../../public/carusel/Сотрудничество.svg" alt="">
-    </div>
+    <div class="text">
+        <h4>Наши партнеры</h4>
+        <h3>Сотрудничество и доверие: кто рядом <br> с нами</h3>
     </div>
 </div>
 </template>
 
-
 <style>
-.box{
-     width:100%;
-     height:100vh;
-     display: flex;
-     justify-content: center;
-     align-items:center;
-  }
-  .text_partners{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    text-align:center;
-    align-items:center;
-  }
-    .info_partners{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        text-align:center;
-        align-items:center;
-      }
-    .bg{
-            display:flex;
-            flex-direction:column;
-            justify-content:center;
-            text-align:center;
-            align-items:center;
-          }
-    .bg img{
-      width: 822px;
-      margin-top: 77px;
-    }
-    .line_bg {
-      position: absolute;
-      bottom: 3px;
-    }
-.carusel{
-   position: relative;
-   width: 291px;
-   height: 257px;
-   transform-style: preserve-3d;
+.Partners{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 180px;
 }
-.carusel{
-    animation: animate 45s linear infinite;
+.text h4{
+color: #82F7FF;
+padding-top: 50px;
+font-size: 18px;
+font-weight: bold;
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
 }
 @keyframes animate{
     0%{
-        transform: perspective(1000px) rotateY(0deg);
+        transform: perspective(800px) rotateY(0deg);
     }
     100%{
-        transform: perspective(1000px) rotateY(360deg);
+        transform: perspective(800px) rotateY(360deg);
     }
 }
-.carusel span{
+.box span{
     position: absolute;
     top: 0;
     left: 0;
@@ -103,9 +65,21 @@
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px); 
+    transform: rotateY(calc(var(--i) * 65deg)) translateZ(380px);
 }
-.carusel span img{
+.box span h3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #82F7FF;
+    font-weight: bold;
+    z-index: 1;
+}
+.box span a img{
     position: absolute;
     top: 0;
     left: 0;
@@ -113,12 +87,4 @@
     height: 100%;
     object-fit: cover;
 }
-.info_partners:first-child{
-    margin-bottom: 10px;
-}
-.bg:first-child{
-    width: 1000px;
-    height: 55px;
-}
-@import url("../assets/main.css");
 </style>

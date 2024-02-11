@@ -4,13 +4,18 @@
 <template>
     <div class="about">
     <div class="videoback">
+        <video muted loop autoplay plays-inline >
+            <source src="../../../public/video/earth.mp4" />
+          </video>
           <div class="text">
-            <h1>О компании:</h1>
-           <center><p>Universoft-IT является ведущей компанией в области информационных технологий, специализирующейся на разработке инновационного программного обеспечения и предоставлении широкого спектра услуг IT-консалтинга. Мы являемся надежным и непрерывно растущим партнером для клиентов во всем мире.</p></center>
+            <h2>О компании</h2>
+           <p>Universoft-IT является ведущей компанией в области информационных технологий, специализирующейся на разработке инновационного программного обеспечения<br> и предоставлении широкого спектра услуг IT-консалтинга. Мы являемся надежным и непрерывно растущим партнером для клиентов во всем мире.</p>
         </div>
     </div>
     </div>
 </template>
+
+
 
 <style>
 .about{
@@ -19,7 +24,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 40vh;
+    height: 100vh;
     width: 100%;
 }
 .about .videoback{
@@ -36,10 +41,9 @@
 .text{
     color: #fff;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .text p{
-    margin-top: 50px;
-    font-size: 22px;
-    width: 75%;
+    margin-top: 90px;
 }
 </style>

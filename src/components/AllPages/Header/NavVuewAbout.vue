@@ -13,9 +13,10 @@
         <ul>
             <li><a href="about">О компании</a></li>
             <li><a href="service">Услуги</a></li>
-            <!-- <li><a href="portfolio">Портфолио</a></li> -->
+            <li><a href="portfolio">Портфолио</a></li>
             <li><a href="partners">Наши партнеры</a></li>
             <li><a href="Vacancy">Вакансии</a></li>
+            <li><a href="contact">Контакты</a></li>
         </ul>
         </nav>
         <div class="lannumber">
