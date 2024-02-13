@@ -20,7 +20,7 @@
         </ul>
         </nav>
         <div class="lannumber">
-            <div class="call"><a href="tel:+998998999191">+998 99 899 91 91</a></div>
+            <div class="call"><a href="tel:+998997725295">+998 99 772 52 95</a></div>
         </div>
         </div>
         <div class="videoback">

@@ -11,16 +11,23 @@
             <h3>История Universoft: Преодоление милейших <br>моментов.</h3>
         </div>
         <div class="logistic">
-            <div>
-                <p> В начале 2000-х несколько студентов технического университета<br>
-                      объединились, чтобы решить сложную задачу по созданию<br>
-                      программного обеспечения для автоматизации управления<br>
-                      складами. Так началась история Univesfoft - с маленькой команды,<br>
-                      работающей из подвала одного из учебных корпусов.</p>
-                <p>После года разработки первый продукт был готов. Это была система управления запасами, которая стала хитом среди небольших логистических компаний. Этот успех вдохновил основателей на дальнейшее развитие.</p>
-            </div>
-            <div><img src="../../../public/bground/Group.png" alt=""></div>
-            <div><p>После года разработки первый продукт был готов. Это была система управления запасами, которая стала хитом среди небольших логистических компаний. Этот успех вдохновил основателей на дальнейшее развитие.</p></div>
+<div class="first_left">
+    <p>UNIVERSOFT IT специализируется на разработке и производстве <br>
+         программных и программно-аппаратных комплексов в области ИТ и ИБ,<br>
+         которые отвечают высочайшим мировым стандартам и нацелены<br>
+          на развитие цифровых сервисов в Узбекистане.</p>
+          <p style="padding-top: 480px;">Деятельность UNIVERSOFT IT направлена на импортозамещение в высокотехнологичной сфере.
+             Компания фокусируется на создании новых для Узбекистана продуктов,
+             которые вносят свой вклад в обеспечение технологического суверенитета страны.</p>
+</div>
+<div class="center_img">
+    <img src="../../../public/bground/Group.svg" alt="">
+</div>
+<div class="second_right">
+    <p>Компания развивает на территории Узбекистана высокотехнологичное производство
+        продукции для обеспечения защиты государственных и корпоративных информационных систем
+          на основе лучших мировых ИТ-практик и современных технологий в области ИБ.</p>
+</div>
         </div>
     </div>
 </template>
@@ -30,12 +37,13 @@
 .history{
     background: #000;
     width: 100%;
-    height: 100vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     flex-direction: column;
+    color: rgba(255, 255, 255, 0.5);
 }
 .his_univers{
     width: 100%;
@@ -45,20 +53,36 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 .his_univers video{
 width: 140px;
 height: 140px;
 }
 .logistic{
+    justify-content: space-around;
     display: flex;
-    height: 1000px;
+    height: 1500px;
     text-align: right;
-}
-.logistic:first-child{
-    width: 400px;
+    position: relative;
 }
 .logistic img{
     width: 148px;
+}
+.first_left{
+    width: 550px;
+    font-size: 16px;
+}
+.first_left:first-child{
+    padding: 190px 5px 0 0;
+}
+.first_left:last-child{
+    padding-top: 200px;
+}
+.second_right{
+    text-align: left;
+    width: 550px;
+    font-size: 16px;
+    padding-top: 490px;
 }
 </style>

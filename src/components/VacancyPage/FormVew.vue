@@ -99,7 +99,7 @@ label{
 }
 .information_form{
     width: 529px;
-    height: 490px;
+    height: 560px;
     display: flex;
     flex-direction: column;
     padding-top: 22px;

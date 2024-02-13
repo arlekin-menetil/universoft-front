@@ -13,14 +13,14 @@
         <ul>
             <li><a href="about">О компании</a></li>
             <li><a href="service">Услуги</a></li>
-            <li><a href="portfolio">Портфолио</a></li>
+            <!--<li><a href="portfolio">Портфолио</a></li>-->
             <li><a href="partners">Наши партнеры</a></li>
             <li><a href="Vacancy">Вакансии</a></li>
             <li><a href="contact">Контакты</a></li>
         </ul>
         </nav>
         <div class="lannumber">
-            <div class="call"><a href="tel:+998998999191">+998 99 899 91 91</a></div>
+            <div class="call"><a href="tel:+998997735295">+998 99 773 52 95</a></div>
         </div>
         </div>
         <div class="videoback">

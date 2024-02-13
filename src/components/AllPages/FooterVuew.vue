@@ -4,7 +4,6 @@
 <template>
     <div class="footer">
         <footer>
-          <img src="../../../public/bground/universoft.png" alt="">
             <div class="footer_menu">
               <div>
               <div class="footer_category">
@@ -50,9 +49,10 @@
               <div class="footer_category">
                 <h3>Контактные Данные</h3>
                 <ul>
-                  <li>г.Ташкент, ул.Тараса Щевченько 22,</li>
+                  <li>Республика Узбекистан,<br>
+                    г. Ташкент, Яккасарайский район, ул. Бобура 77</li>
                   <li><a href="">info@universoft.uz</a></li>
-                  <li><a href="tel:+998998999191">+998  99  899 91 91</a></li>
+                  <li><a href="tel:+998997735295">+998 99 773 52 95</a></li>
                   <li>Пн. - Сб. 9:00 до 19:00</li>
                 </ul>
               </div>
@@ -72,6 +72,7 @@
   height: 600px;
   background: #000;
   display: flex;
+  color: rgba(255, 255, 255, 0.6);
 }
 footer{
   width: 100%;
@@ -112,6 +113,9 @@ footer img{
 }
 .footer_icons{
   margin-top: 52px;
+}
+.footer_icons a{
+  margin: 0 5px;
 }
 .footer_icons img{
   width: 40px;
