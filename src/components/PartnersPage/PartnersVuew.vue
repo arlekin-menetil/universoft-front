@@ -5,7 +5,7 @@
 <div class="Partners">
     <div class="box">
         <span style="--i:1;"><a href=""><h3>Asbis</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:2;"><a href=""><h3>Axsoft</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:2;"><a href=""><h3>Axoft</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
         <span style="--i:3;"><a href=""><h3>Актив-Софт</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
         <span style="--i:4;"><a href=""><h3>Анлиметед<br> Продакшн</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
         <span style="--i:5;"><a href=""><h3>Лаборатория <br>Касперского</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>

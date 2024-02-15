@@ -13,7 +13,6 @@ import FooterView from '../components/AllPages/FooterVuew.vue'
  <HeaderView />
  <ConsulTate />
 
- <ContentView />
  <Company />
  <BigEarth />
  <Offers/>

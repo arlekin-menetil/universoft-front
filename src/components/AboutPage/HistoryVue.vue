@@ -8,7 +8,7 @@
             <video muted loop autoplay plays-inline>
                 <source src="../../../public/video/earth.mp4">
             </video>
-            <h3>История Universoft: Преодоление милейших <br>моментов.</h3>
+            <h3>История Universoft:<br> Преодоление милейших <br>моментов.</h3>
         </div>
         <div class="logistic">
 <div class="first_left">

@@ -1,4 +1,6 @@
 <script setup></script>
+
+
 <template>
     <div class="Nav">
         <div class="header">
@@ -49,7 +51,6 @@
 }
 nav ul{
     display: flex;
-    width: 600px;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,5 +68,21 @@ nav li a:hover{
 }
 .call a{
 color: #000;
+}
+.videoback{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+/*background*/
+.Nav .videoback video{
+    width:100%;
+    height: 100vh;
+    left:0;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;  
 }
 </style>

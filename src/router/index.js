@@ -42,6 +42,56 @@ const router = createRouter({
       name: 'partners',
       component: () => import('../views/OurPartners.vue')
     },
+    {
+      path: '/token',
+      name: 'token',
+      component: () => import('../components/ServicePage/Tokenvue.vue')
+    },
+    {
+      path: '/messenger',
+      name: 'messenger',
+      component: () => import('../components/ServicePage/MessengerVue.vue')
+    },
+    {
+      path: '/crypto_routers',
+      name: 'crypto routers',
+      component: () => import('../components/ServicePage/CryptoRouters.vue')
+    },
+    {
+      path: '/operation_system',
+      name: 'operation system',
+      component: () => import('../components/ServicePage/OperatingSystem.vue')
+    },
+    {
+      path: '/soc_center',
+      name: 'soc center',
+      component: () => import('../components/ServicePage/SocCenter.vue')
+    },
+    {
+      path: '/antivirus',
+      name: 'antivirus',
+      component: () => import('../components/ServicePage/AntivirusVue.vue')
+    },
+    {
+      path: '/dlp_system',
+      name: 'dlp system',
+      component: () => import('../components/ServicePage/DlpSystem.vue')
+    },
+    {
+      path: '/etracker',
+      name: 'etracker',
+      component: () => import('../components/ServicePage/EtrackerVue.vue')
+    },
+    {
+      path: '/ai',
+      name: 'ai',
+      component: () => import('../components/ServicePage/AiVue.vue')
+    },
+    {
+      path: '/complex_system',
+      name: 'complex system',
+      component: () => import('../components/ServicePage/ComplexSystem.vue')
+    },
   ]
 })
 

@@ -1,6 +1,6 @@
 <script setup>
 import DefaultHeaderView from '@/components/AllPages/Header/DefaultHeaderView.vue';
-import Footer from '@/components/AllPages/FooterAllPs.vue'
+import Footer from '@/components/AllPages/FooterVuew.vue'
 </script>
 
 <template>
@@ -23,18 +23,18 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
             </div>
 
             <div class="buttons-left">
-                <div class="button-1">Токены ЭЦП</div>
-                <div class="button-2">Мессенджер</div>
-                <div class="button-3">Криптомаршрутизаторы</div>
-                <div class="button-4">Операционная система</div>
-                <div class="button-5">SOC центр</div>
+                <div class="button-1"><a href="/token">Токены ЭЦП</a></div>
+                <div class="button-2"><a href="/messenger">Мессенджер</a></div>
+                <div class="button-3"><a href="/crypto_routers">Криптомаршрутизаторы</a></div>
+                <div class="button-4"><a href="/operation_system">Операционная система</a></div>
+                <div class="button-5"><a href="/soc_center">SOC центр</a></div>
             </div>
             <div class="buttons-right">
-                <div class="button-6" ><div class="text-right">Антивирус</div></div>
-                <div class="button-7" ><div class="text-right">DLP система</div></div>
-                <div class="button-8" ><div class="text-right">Etracker. Мониторинг ТС</div></div>
-                <div class="button-9" ><div class="text-right">Разработка AI</div></div>
-                <div class="button-10" ><div class="text-right">Разработка сложных систем</div></div>
+                <div class="button-6" ><div class="text-right"><a href="/antivirus">Антивирус</a></div></div>
+                <div class="button-7" ><div class="text-right"><a href="/dlp_system">DLP система</a></div></div>
+                <div class="button-8" ><div class="text-right"><a href="/etracker">Etracker. Мониторинг ТС</a></div></div>
+                <div class="button-9" ><div class="text-right"><a href="/ai">Разработка AI</a></div></div>
+                <div class="button-10" ><div class="text-right"><a href="/complex_system">Разработка сложных систем</a></div></div>
             </div>
         </div>
     </div>
@@ -43,17 +43,22 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
 
 
 <style>
-
+.Service{
+    position: relative;
+}
 .services-center {
     background: url('../../public/bground/service.png');
     position: absolute;
     background-position: center;
     background-size: cover;
     width: 750px;
-    height: 600px;
+    height: 100vh;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.services-center a{
+    color: #82F7FF;
 }
 .services-center .video-icon{
     position: relative;
@@ -120,6 +125,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     margin-left: 29%;
     line-height: 67.641px;
+    cursor: pointer;
+}
+.buttons-left .button-1 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-2{
     background: url('../../public/images/Vector2.svg');
@@ -128,6 +137,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     margin-left: 20%;
     flex-shrink: 0;
     line-height: 67.641px;
+    cursor: pointer;
+}
+.buttons-left .button-2 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-3{
     background: url('../../public/images/Vector3.svg');
@@ -136,6 +149,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     line-height: 88.576px;
     margin-left: 2.5%;
+    cursor: pointer;
+}
+.buttons-left .button-3 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-4{
     background: url('../../public/images/Vector4.svg');
@@ -144,7 +161,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     margin-left: 20%;
     flex-shrink: 0;
     line-height: 67.641px;
-    
+    cursor: pointer;
+}
+.buttons-left .button-4 a{
+    padding: 33.5px 20px 33.5px 20px;
 }
 .buttons-left .button-5{
     background: url('../../public/images/Vector5.png');
@@ -153,6 +173,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     margin-left: 27%;
     flex-shrink: 0;
     line-height: 67.641px;
+    cursor: pointer;
+}
+.buttons-left .button-5 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 
 .buttons-right .button-6{
@@ -163,6 +187,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     margin-left: -27%;
     line-height: 67.641px;
     transform: rotateY(180deg);
+    cursor: pointer;
+}
+.buttons-left .button-6 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-7{
     background: url('../../public/images/Vector2.svg');
@@ -172,7 +200,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     line-height: 67.641px;
     transform: rotateY(180deg);
-
+    cursor: pointer;
+}
+.buttons-left .button-7 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-8{
     background: url('../../public/images/Vector3.svg');
@@ -182,7 +213,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     line-height: 88.576px;
     margin-left: 2%;
     transform: rotateY(180deg);
-
+    cursor: pointer;
+}
+.buttons-left .button-8 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-9{
     background: url('../../public/images/Vector4.svg');
@@ -192,7 +226,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     line-height: 67.641px;
     transform: rotateY(180deg);
-    
+    cursor: pointer;
+}
+.buttons-left .button-9 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-10{
     background: url('../../public/images/Vector5.png');
@@ -202,6 +239,10 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
     flex-shrink: 0;
     line-height: 67.641px;
     transform: rotateY(180deg);
+    cursor: pointer;
+}
+.buttons-left .button-10 a{
+    padding: 33.5px 70px 33.5px 70px;
 }
 
 .text-right {
@@ -210,14 +251,14 @@ import Footer from '@/components/AllPages/FooterAllPs.vue'
 
 .videoback{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background: rgba(0, 0, 0, 0.9);
     position: relative;
 }
 /*background*/
 .Service .videoback video{
     width:100%;
-    height: 100vh;
+    height: 130vh;
     left:0;
     top: 0;
     z-index: -1;

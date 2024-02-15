@@ -9,8 +9,8 @@ import Footer from '../components/AllPages/FooterVuew.vue'
   <div class="About">
     <HeaderView />
     <Consult />
-    <Company />
     <History />
+    <Company />
     <Footer />
   </div>
 </template>
