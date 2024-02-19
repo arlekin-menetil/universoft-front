@@ -92,6 +92,16 @@ const router = createRouter({
       name: 'complex system',
       component: () => import('../components/ServicePage/ComplexSystem.vue')
     },
+        {
+      path: '/Process_Automation',
+      name: 'Process Automation',
+      component: () => import('../components/ServicePage/ProcessAutomation.vue')
+    },
+    {
+      path: '/Computer_Engineering',
+      name: 'Computer Engineering',
+      component: () => import('../components/ServicePage/ComputerEngineering.vue')
+    },
   ]
 })
 
