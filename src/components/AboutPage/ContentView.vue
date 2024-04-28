@@ -7,36 +7,36 @@
 мы успешно сотрудничаем</h2>
         <div class="carusel" style="--t:20s">
         <div>
-        <img src="../../../public/icons/uzgard.svg" alt="">
-        <img src="../../../public/icons/akfa.svg" alt="">
-        <img src="../../../public/icons/xalk.svg" alt="">
-        <img src="../../../public/icons/hilst.svg" alt="">
-        <img src="../../../public/icons/humo.svg" alt="">
+        <img src="/public/icons/uzgard.svg" alt="">
+        <img src="/public/icons/akfa.svg" alt="">
+        <img src="/public/icons/xalk.svg" alt="">
+        <img src="/public/icons/hilst.svg" alt="">
+        <img src="/public/icons/humo.svg" alt="">
         </div>
         <div>
-            <img src="../../../public/icons/uzgard.svg" alt="">
-            <img src="../../../public/icons/akfa.svg" alt="">
-            <img src="../../../public/icons/xalk.svg" alt="">
-            <img src="../../../public/icons/hilst.svg" alt="">
-            <img src="../../../public/icons/humo.svg" alt="">
+            <img src="/public/icons/uzgard.svg" alt="">
+            <img src="/public/icons/akfa.svg" alt="">
+            <img src="/public/icons/xalk.svg" alt="">
+            <img src="/public/icons/hilst.svg" alt="">
+            <img src="/public/icons/humo.svg" alt="">
             </div>
         </div>
         <div class="carusel" style="--t:22s">
         <div>
-            <img src="../../../public/icons/humo.svg" alt="">
-            <img src="../../../public/icons/hilst.svg" alt="">
-            <img src="../../../public/icons/xalk.svg" alt="">
-            <img src="../../../public/icons/uzgard.svg" alt="">
-            <img src="../../../public/icons/Davr.svg" alt="">
-            <img src="../../../public/icons/akfa.svg" alt="">
+            <img src="/public/icons/humo.svg" alt="">
+            <img src="/public/icons/hilst.svg" alt="">
+            <img src="/public/icons/xalk.svg" alt="">
+            <img src="/public/icons/uzgard.svg" alt="">
+            <img src="/public/icons/Davr.svg" alt="">
+            <img src="/public/icons/akfa.svg" alt="">
         </div>
         <div>
-            <img src="../../../public/icons/humo.svg" alt="">
-            <img src="../../../public/icons/hilst.svg" alt="">
-            <img src="../../../public/icons/xalk.svg" alt="">
-            <img src="../../../public/icons/uzgard.svg" alt="">
-            <img src="../../../public/icons/Davr.svg" alt="">
-            <img src="../../../public/icons/akfa.svg" alt="">
+            <img src="/public/icons/humo.svg" alt="">
+            <img src="/public/icons/hilst.svg" alt="">
+            <img src="/public/icons/xalk.svg" alt="">
+            <img src="/public/icons/uzgard.svg" alt="">
+            <img src="/public/icons/Davr.svg" alt="">
+            <img src="/public/icons/akfa.svg" alt="">
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
 .Content{
     width: 100%;
     height: 100vh;
-    background: #000 url('../../../public/bground/grid.svg') no-repeat right top;
+    background: #000 url('/public/bground/grid.svg') no-repeat right top;
     display: flex;
     justify-content: center;
     flex-direction: column;

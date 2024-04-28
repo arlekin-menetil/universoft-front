@@ -6,7 +6,7 @@
         <div class="header">
         <div class="logo">
             <a class="logo" href="/">
-            <img src="../../../../public/icons/button_universoft.svg">
+            <img src="/public/icons/button_universoft.svg">
             </a>
         </div>
         <nav>

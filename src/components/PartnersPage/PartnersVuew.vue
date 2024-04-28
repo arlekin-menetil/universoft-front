@@ -4,18 +4,18 @@
 <template>
 <div class="Partners">
     <div class="box">
-        <span style="--i:1;"><a href=""><h3>Asbis</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:2;"><a href=""><h3>Axoft</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:3;"><a href=""><h3>Актив-Софт</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:4;"><a href=""><h3>Анлиметед<br> Продакшн</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:5;"><a href=""><h3>Лаборатория <br>Касперского</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:6;"><a href=""><h3>Positive<br> Technologies</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:7;"><a href=""><h3>BaseAlt</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:8;"><a href=""><h3>InfoWatch</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:9;"><a href=""><h3>Код <br>Безопасности</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:10;"><a href=""><h3>Security<br> Vision</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:11;"><a href=""><h3>Teltonika</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
-        <span style="--i:12;"><a href=""><h3>MAS Platform</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:1;"><a href=""><h3>Asbis</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:2;"><a href=""><h3>Axoft</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:3;"><a href=""><h3>Актив-Софт</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:4;"><a href=""><h3>Анлиметед<br> Продакшн</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:5;"><a href=""><h3>Лаборатория <br>Касперского</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:6;"><a href=""><h3>Positive<br> Technologies</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:7;"><a href=""><h3>BaseAlt</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:8;"><a href=""><h3>InfoWatch</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:9;"><a href=""><h3>Код <br>Безопасности</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:10;"><a href=""><h3>Security<br> Vision</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:11;"><a href=""><h3>Teltonika</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:12;"><a href=""><h3>MAS Platform</h3><img src="/public/carusel/Group 39509.svg" alt=""></a></span>
     </div>
     <div class="text">
         <h4>Наши партнеры</h4>

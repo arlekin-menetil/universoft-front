@@ -73,49 +73,49 @@ h2{
     padding-top: 10px;
 }
 .ai ul div:first-child li:first-child{
-    background: url('../../../public/icons/data-science.svg');
+    background: url('/public/icons/data-science.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:first-child li:nth-child(2){
-    background: url('../../../public/icons/artificial-intelligence1.svg');
+    background: url('/public/icons/artificial-intelligence1.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:first-child li:nth-child(3){
-    background: url('../../../public/icons/learning.svg');
+    background: url('/public/icons/learning.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:first-child li:last-child{
-    background: url('../../../public/icons/ai.svg');
+    background: url('/public/icons/ai.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/biometrics.svg');
+    background: url('/public/icons/biometrics.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:nth-child(2) li:nth-child(2){
-    background: url('../../../public/icons/analysis7.svg');
+    background: url('/public/icons/analysis7.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:nth-child(2) li:nth-child(3){
-    background: url('../../../public/icons/face-scan.svg');
+    background: url('/public/icons/face-scan.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .ai ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/chat.svg');
+    background: url('/public/icons/chat.svg');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

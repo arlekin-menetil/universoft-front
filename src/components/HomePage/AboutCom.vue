@@ -5,7 +5,7 @@
     <div class="about">
     <div class="videoback">
         <video muted loop autoplay plays-inline >
-            <source src="../../../public/video/earth.mp4" />
+            <source src="/public/video/earth.mp4" />
           </video>
           <div class="text">
             <h2>О нас</h2>
@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #000 url('../../../public/bground/grid.svg') no-repeat right bottom;
+    background: #000 url('/public/bground/grid.svg') no-repeat right bottom;
 }
 .videoback video{
     width: 140px;

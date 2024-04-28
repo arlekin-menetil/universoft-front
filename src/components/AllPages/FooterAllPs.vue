@@ -17,9 +17,9 @@
                      услуг IT-консалтинга.</p>
               </div>
               <div class="footer_icons">
-                <a href="#"><img src="../../../public/icons/youtube.png" alt=""></a>
-                <a href="#"><img src="../../../public/icons/telegramm.png" alt=""></a>
-                <a href="#"><img src="../../../public/icons/instagramm.png" alt=""></a>
+                <a href="#"><img src="/public/icons/youtube.png" alt=""></a>
+                <a href="#"><img src="/public/icons/telegramm.png" alt=""></a>
+                <a href="#"><img src="/public/icons/instagramm.png" alt=""></a>
               </div>
             </div>
               <div class="footer_category">
@@ -57,7 +57,7 @@
               </div>
             </div>
             <div class="footer_copyright">
-              <img src="../../../public/bground/Line_footer.svg" alt="">
+              <img src="/public/bground/Line_footer.svg" alt="">
               <p>Копирование материалов сайта разрешается с ссылкой на сайт. <br>
                 В противном случае копирование преследуется по закону</p>
             </div>

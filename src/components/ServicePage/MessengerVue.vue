@@ -109,43 +109,43 @@ h2{
 }
 
 .messenger ul div:first-child li:first-child{
-    background: url('../../../public/icons/lochin/corp.png');
+    background: url('/public/icons/lochin/corp.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:first-child li:nth-child(2){
-    background: url('../../../public/icons/lochin/call.png');
+    background: url('/public/icons/lochin/call.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:first-child li:nth-child(3){
-    background: url('../../../public/icons/lochin/Рисунок12.png');
+    background: url('/public/icons/lochin/Рисунок12.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:first-child li:last-child{
-    background: url('../../../public/icons/lochin/Рисунок13.png');
+    background: url('/public/icons/lochin/Рисунок13.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/lochin/Рисунок14.png');
+    background: url('/public/icons/lochin/Рисунок14.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:nth-child(2) li:nth-child(2){
-    background: url('../../../public/icons/lochin/Рисунок15.png');
+    background: url('/public/icons/lochin/Рисунок15.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .messenger ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/lochin/Рисунок16.png');
+    background: url('/public/icons/lochin/Рисунок16.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

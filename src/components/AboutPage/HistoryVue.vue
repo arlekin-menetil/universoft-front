@@ -6,7 +6,7 @@
     <div class="history">
         <div class="his_univers">
             <video muted loop autoplay plays-inline>
-                <source src="../../../public/video/earth.mp4">
+                <source src="/public/video/earth.mp4">
             </video>
             <h3>История Universoft:<br> Преодоление милейших <br>моментов.</h3>
         </div>
@@ -21,7 +21,7 @@
              которые вносят свой вклад в обеспечение технологического суверенитета страны.</p>
 </div>
 <div class="center_img">
-    <img src="../../../public/bground/Group.svg" alt="">
+    <img src="/public/bground/Group.svg" alt="">
 </div>
 <div class="second_right">
     <p>Компания развивает на территории Узбекистана высокотехнологичное производство

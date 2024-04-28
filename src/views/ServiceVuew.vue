@@ -8,12 +8,12 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
         <DefaultHeaderView></DefaultHeaderView>
         <div class="videoback">
             <video muted loop autoplay plays-inline>
-                <source src="../../public/video/3Back.mp4" />
+                <source src="/public/video/3Back.mp4" />
               </video>
         </div>
         <div class="services-center">
             <video muted loop autoplay plays-inline class="video-icon" width="115px" height="115px">
-                <source src="../../public/video/3d-react.mp4" />
+                <source src="/public/video/3d-react.mp4" />
             </video>
             <div class="title">
                 Что мы предлогаем нашим клиентам
@@ -47,7 +47,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     position: relative;
 }
 .services-center {
-    background: url('../../public/bground/service.png');
+    background: url('/public/bground/service.png');
     position: absolute;
     background-position: center;
     background-size: cover;
@@ -119,7 +119,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
 
 
 .buttons-left .button-1{
-    background: url('../../public/images/Vector1.png');
+    background: url('/public/images/Vector1.png');
     width: 253.714px;
     height: 67.641px;
     flex-shrink: 0;
@@ -131,7 +131,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-2{
-    background: url('../../public/images/Vector2.svg');
+    background: url('/public/images/Vector2.svg');
     width: 221.956px;
     height: 67.641px;
     margin-left: 20%;
@@ -143,7 +143,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-3{
-    background: url('../../public/images/Vector3.svg');
+    background: url('/public/images/Vector3.svg');
     width: 245.199px;
     height: 88.576px;
     flex-shrink: 0;
@@ -155,7 +155,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-left .button-4{
-    background: url('../../public/images/Vector4.svg');
+    background: url('/public/images/Vector4.svg');
     width: 222.895px;
     height: 67.641px;
     margin-left: 20%;
@@ -167,7 +167,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 20px 33.5px 20px;
 }
 .buttons-left .button-5{
-    background: url('../../public/images/Vector5.png');
+    background: url('/public/images/Vector5.png');
     width: 258.034px;
     height: 67.641px;
     margin-left: 27%;
@@ -180,7 +180,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
 }
 
 .buttons-right .button-6{
-    background: url('../../public/images/Vector1.png');
+    background: url('/public/images/Vector1.png');
     width: 253.714px;
     height: 67.641px;
     flex-shrink: 0;
@@ -193,7 +193,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-7{
-    background: url('../../public/images/Vector2.svg');
+    background: url('/public/images/Vector2.svg');
     width: 221.956px;
     height: 67.641px;
     margin-left: -6%;
@@ -206,7 +206,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-8{
-    background: url('../../public/images/Vector3.svg');
+    background: url('/public/images/Vector3.svg');
     width: 245.199px;
     height: 88.576px;
     flex-shrink: 0;
@@ -232,7 +232,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     padding: 33.5px 70px 33.5px 70px;
 }
 .buttons-right .button-10{
-    background: url('../../public/images/Vector5.png');
+    background: url('/public/images/Vector5.png');
     width: 258.034px;
     height: 67.641px;
     margin-left: -27%;

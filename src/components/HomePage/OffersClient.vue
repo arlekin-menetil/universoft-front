@@ -6,7 +6,7 @@
     <div class="offers">
         <div class="videoback">
             <video muted loop autoplay plays-inline >
-                <source src="../../../public/video/atom.mp4" />
+                <source src="/public/video/atom.mp4" />
               </video>
               <div class="text">
                 <h2>Что мы предлагаем<br> нашим клиентам</h2>
@@ -17,12 +17,12 @@
                 <div class="services"> 
                     <div> 
                         <a href="/Process_Automation">
-                        <video muted loop autoplay plays-inline src="../../../public/video/SEO.webm"></video>
+                        <video muted loop autoplay plays-inline src="/public/video/SEO.webm"></video>
                         <h3>Автоматизация процессов <br>«Управления уязвимостями»</h3>
                         <p>Платформа содержит готовые модули и low-code  конструкторы для формирования облика системы при помощи настроек в web-интерфейсе.</p>
                     </a>
                     <a href="/Computer_Engineering">
-                        <video muted loop autoplay plays-inline src="../../../public/video/AI.webm"></video>
+                        <video muted loop autoplay plays-inline src="/public/video/AI.webm"></video>
                         <h3>Продажа <br> Вычислительной Техники</h3>
                         <p>Мы работаем в партнерских отношениях с такими компаниями как:
                             АСБИС - одна из ведущих компаний IT-индустрии,
@@ -40,7 +40,7 @@
                         Все услуги</a>
                 </div>
         </div>
-        <img src="../../../public/bground/line.png" alt="">
+        <img src="/public/bground/line.png" alt="">
     </div>
 </template>
 

@@ -5,11 +5,11 @@
 <template>
     <div class="Error">
         <div class="number">
-            <img src="../../public/bground/4.svg" alt="">
+            <img src="/public/bground/4.svg" alt="">
             <video muted loop autoplay plays-inline >
-                <source src="../../../../public/video/-9803-4c23-9e38-9541f3b10d25.mp4" />
+                <source src="/public/video/-9803-4c23-9e38-9541f3b10d25.mp4" />
               </video>
-            <img src="../../public/bground/4.svg" alt="">
+            <img src="/public/bground/4.svg" alt="">
         </div>
         <p>Страница в разработке, скора она будет доступна!</p>
         <a href="/">Вернуться Назад</a>

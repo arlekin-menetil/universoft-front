@@ -7,7 +7,7 @@ import {FormConsult} from '../../../assets/animation';
         <div class="fullPageMenu" id="Consult">
             <div class="Consult">
               <div class="logo">
-                <a href=""><img src="../../../../public/icons/button_universoft.svg" alt=""></a>
+                <a href=""><img src="/public/icons/button_universoft.svg" alt=""></a>
               </div>
               <div class="information">
               <div class="office">
@@ -25,9 +25,9 @@ import {FormConsult} from '../../../assets/animation';
             </div>
             <div class="icon_soc">
               <a href="">
-                <img src="../../../../public/icons/yandex.svg" alt=""><p>Посмотреть <br> отзывы в Яндекс</p>
+                <img src="/public/icons/yandex.svg" alt=""><p>Посмотреть <br> отзывы в Яндекс</p>
               </a>
-              <a href="" class="look_soc"><img src="../../../../public/icons/google.svg" alt=""><p>Посмотреть<br> отзывы в Google</p></a>
+              <a href="" class="look_soc"><img src="/public/icons/google.svg" alt=""><p>Посмотреть<br> отзывы в Google</p></a>
             </div>
             </div>
             <div class="information_form">
@@ -45,7 +45,7 @@ import {FormConsult} from '../../../assets/animation';
             <div class="banner">
               <div class="videoback">
                 <video muted loop autoplay plays-inline >
-                    <source src="../../../../public/video/ConsutVideo.webm" />
+                    <source src="/public/video/ConsutVideo.webm" />
                   </video>
             </div>
             </div>
@@ -150,7 +150,7 @@ justify-content: space-between;
     z-index: 200;
   }
   .menuicon.active{
-    background: url("../../../../public/icons/close.svg");
+    background: url("/public/icons/close.svg");
     background-size: 36px;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@ label{
   position: absolute;
   color: #8F8F8F;
   border: 1px solid #82F7FF;
-  background: url(../../../public/icons/Frame.svg) no-repeat center right;
+  background: url('/public/icons/Frame.svg') no-repeat center right;
   background-position-x: 420px;
   padding-top:5px;
   padding-left: 20px;

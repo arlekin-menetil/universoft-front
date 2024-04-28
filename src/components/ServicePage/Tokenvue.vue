@@ -19,7 +19,7 @@ import Footer from '../../components/AllPages/FooterVuew.vue'
                 <ol>Защита аккаунтов в веб-приложениях  и сервисах</ol>
             </div>
             <div>
-                <img src="../../../public/icons/token/uzgard.png" alt="">
+                <img src="/public/icons/token/uzgard.png" alt="">
             </div>
             </ul>
         </div><h2>Возможности ЭЦП:</h2>
@@ -31,7 +31,7 @@ import Footer from '../../components/AllPages/FooterVuew.vue'
             <li>Защита аккаунтов в веб-приложениях  и сервисах</li>
         </div>
         </ul>
-        <img style="margin-left: 150px;" src="../../../public/icons/token/logotip.png" alt="">
+        <img style="margin-left: 150px;" src="/public/icons/token/logotip.png" alt="">
     </div>
     <Footer />
 </template>
@@ -84,25 +84,25 @@ h2{
     padding-top: 10px;
 }
 .token ul div:first-child li:first-child{
-    background: url('../../../public/icons/token/NFC.png');
+    background: url('@public/icons/token/NFC.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .token ul div:first-child li:nth-child(2){
-    background: url('../../../public/icons/token/hranilishe.png');
+    background: url('@public/icons/token/hranilishe.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .token ul div:first-child li:nth-child(3){
-    background: url('../../../public/icons/token/Dvoinaya.png');
+    background: url('@public/icons/token/Dvoinaya.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .token ul div:first-child li:last-child{
-    background: url('../../../public/icons/token/veb.png');
+    background: url('@public/icons/token/veb.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

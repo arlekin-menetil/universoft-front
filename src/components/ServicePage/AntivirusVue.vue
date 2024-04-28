@@ -74,32 +74,32 @@ h2{
     color: #82F7FF;
 }
 .antivirus ul div:first-child li:first-child{
-    background: url('../../../public/icons/antivirus/found.png');
+    background: url('/public/icons/antivirus/found.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .antivirus ul div:first-child li:nth-child(2){
-    background: url('../../../public/icons/antivirus/prognozi.png');
+    background: url('/public/icons/antivirus/prognozi.png');
     background-size: 35px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .antivirus ul div:first-child li:last-child{
-    background: url('../../../public/icons/antivirus/fight.png');
+    background: url('/public/icons/antivirus/fight.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
     padding-top: 15px;
 }
 .antivirus ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/antivirus/security.png');
+    background: url('/public/icons/antivirus/security.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .antivirus ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/antivirus/automatic.png');
+    background: url('/public/icons/antivirus/automatic.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

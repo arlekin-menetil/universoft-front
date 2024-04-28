@@ -7,15 +7,15 @@
         <div class="text"><h2>НАШИ КЛИЕНТЫ ИЗ ВСЕГО МИРА</h2></div>
         <div class="video">
             <video muted loop autoplay plays-inline>
-                <source src="../../../public/video/ConsutVideo.webm">
+                <source src="/public/video/ConsutVideo.webm">
             </video>
         </div>
         <div class="sticky">
-            <img src="../../../public/sticky/Canada.svg" />
-            <img src="../../../public/sticky/British.svg" />
-            <img src="../../../public/sticky/Germany.svg" />
-            <img src="../../../public/sticky/KOREYA.svg" />
-            <img src="../../../public/sticky/Uzbekistan.svg" />
+            <img src="/public/sticky/Canada.svg" />
+            <img src="/public/sticky/British.svg" />
+            <img src="/public/sticky/Germany.svg" />
+            <img src="/public/sticky/KOREYA.svg" />
+            <img src="/public/sticky/Uzbekistan.svg" />
         </div>
     </div>
 </template>

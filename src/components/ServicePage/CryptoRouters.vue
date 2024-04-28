@@ -14,8 +14,8 @@ import Footer from '../../components/AllPages/FooterVuew.vue'
             </p>
             <ul style="display: flex;flex-direction: column;">
                 <div style="display: flex; align-items: center;">
-                    <img src="../../../public/icons/crypto/Рисунок5.png" alt="">
-                    <img src="../../../public/icons/crypto/Рисунок6.png" alt="">
+                    <img src="/public/icons/crypto/Рисунок5.png" alt="">
+                    <img src="/public/icons/crypto/Рисунок6.png" alt="">
                 </div>
                 <div style="display: flex; flex-wrap: wrap;">
                 <ol style="margin: 10px 25px 10px 0;">VPN с ГОСТ-алгоритмами до 40 Гбит/с</ol>
@@ -108,25 +108,25 @@ h2{
     width: 550px;
 }
 .crypto_routers ul div:first-child li:first-child{
-    background: url('../../../public/icons/crypto/Рисунок1.png');
+    background: url('/public/icons/crypto/Рисунок1.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .crypto_routers ul div:first-child li:last-child{
-    background: url('../../../public/icons/crypto/Рисунок2.png');
+    background: url('/public/icons/crypto/Рисунок2.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .crypto_routers ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/crypto/Рисунок3.png');
+    background: url('/public/icons/crypto/Рисунок3.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .crypto_routers ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/crypto/Рисунок4.png');
+    background: url('/public/icons/crypto/Рисунок4.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

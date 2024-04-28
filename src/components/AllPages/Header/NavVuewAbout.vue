@@ -6,7 +6,7 @@
         <div class="header">
         <div class="logo">
             <a class="logo" href="/">
-            <img src="../../../../public/icons/button_universoft.svg">
+            <img src="/public/icons/button_universoft.svg">
             </a>
         </div>
         <nav>
@@ -25,7 +25,7 @@
         </div>
         <div class="videoback">
             <video muted loop autoplay plays-inline >
-                <source src="../../../../public/video/about.mp4" />
+                <source src="/public/video/about.mp4" />
               </video>
         </div>
     </div>

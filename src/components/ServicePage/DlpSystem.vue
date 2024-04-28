@@ -15,8 +15,8 @@ import Footer from '../../components/AllPages/FooterVuew.vue'
         </div>
         <ul>
             <div>
-                <img style="width: 600px;" src="../../../public/icons/dlp/Рисунок5.png"/>
-                <img style="margin-left: 600px;" src="../../../public/icons/dlp/Рисунок1.png"/>
+                <img style="width: 600px;" src="/public/icons/dlp/Рисунок5.png"/>
+                <img style="margin-left: 600px;" src="/public/icons/dlp/Рисунок1.png"/>
         </div>
         </ul>
         <h2 style="margin: 25px 0 25px 0;">Возмоности системы:</h2>
@@ -75,19 +75,19 @@ h2{
     color: #82F7FF;
 }
 .dlp ul li:first-child{
-    background: url('../../../public/icons/dlp/Рисунок2.png');
+    background: url('/public/icons/dlp/Рисунок2.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .dlp ul li:nth-child(2){
-    background: url('../../../public/icons/dlp/Рисунок3.png');
+    background: url('/public/icons/dlp/Рисунок3.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .dlp ul li:last-child{
-    background: url('../../../public/icons/dlp/Рисунок4.png');
+    background: url('/public/icons/dlp/Рисунок4.png');
     background-size: 50px;
     background-repeat: no-repeat;
     background-position: center left;

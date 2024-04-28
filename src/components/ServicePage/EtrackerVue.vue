@@ -88,25 +88,25 @@ h2{
     width: 550px;
 }
 .etracker ul div:first-child li:first-child{
-    background: url('../../../public/icons/etracker/Vector5.png');
+    background: url('/public/icons/etracker/Vector5.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .etracker ul div:first-child li:last-child{
-    background: url('../../../public/icons/etracker/7baaed2463bb385d5af694bdf0cde5a0.png');
+    background: url('/public/icons/etracker/7baaed2463bb385d5af694bdf0cde5a0.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .etracker ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/etracker/3cd2ee77a6844636db4757f5f9f75c54.png');
+    background: url('/public/icons/etracker/3cd2ee77a6844636db4757f5f9f75c54.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .etracker ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/etracker/2320360b0c0270b845ed77e29d294ac8.png');
+    background: url('/public/icons/etracker/2320360b0c0270b845ed77e29d294ac8.png');
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center left;

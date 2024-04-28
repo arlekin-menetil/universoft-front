@@ -52,22 +52,22 @@
                     <h3>Контактные данные</h3>
                     <div class="infoBox">
                         <div>
-                        <span><img src="../../../../public/icons/location_3936499-removebg-preview.png" ></span>
+                        <span><img src="/public/icons/location_3936499-removebg-preview.png" ></span>
                         <p>Республика Узбекистан,<br> г. Ташкент, Яккасарайский район, ул. Бобура 77
                           </p>
                             </div>
                     <div>
-                        <span><img src="../../../../public/icons/mails_3936728-removebg-preview.png"></span>
+                        <span><img src="/public/icons/mails_3936728-removebg-preview.png"></span>
                         <a href="mailto: info@universoftit.uz">info@universoftit.uz</a>
                             </div>
                     <div>
-                        <span><img src="../../../../public/icons/call_4160991-removebg-preview.png"></span>
+                        <span><img src="/public/icons/call_4160991-removebg-preview.png"></span>
                         <a href="tel:+998997735295">+998 99 773 52 95</a>
                     </div>
                     <ul class="sci">
-                        <li><a href="#"><img src="../../../public/icons/instagramm.png" alt=""></a></li>
-                        <li><a href="#"><img src="../../../public/icons/telegramm.png" alt=""></a></li>
-                        <li><a href="#"><img src="../../../public/icons/youtube.png" alt=""></a></li>
+                        <li><a href="#"><img src="/public/icons/instagramm.png" alt=""></a></li>
+                        <li><a href="#"><img src="/public/icons/telegramm.png" alt=""></a></li>
+                        <li><a href="#"><img src="/public/icons/youtube.png" alt=""></a></li>
                     </ul>
                 </div>
                 </div>

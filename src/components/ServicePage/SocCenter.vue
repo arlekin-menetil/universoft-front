@@ -17,7 +17,7 @@ import Footer from '../../components/AllPages/FooterVuew.vue'
         </div>
         <ul>
             <div>
-                <img style="width: 1200px;" src="../../../public/icons/soc/Рисунок6.png"/>
+                <img style="width: 1200px;" src="/public/icons/soc/Рисунок6.png"/>
         </div>
         </ul>
         <h2 style="margin: 25px 0 25px 0;">Возмоности системы:</h2>
@@ -90,43 +90,43 @@ h2{
     color: #82F7FF;
 }
 .Soc ul div:first-child li:first-child{
-    background: url('../../../public/icons/soc/Рисунок7.png');
+    background: url('/public/icons/soc/Рисунок7.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:first-child li:nth-child(2){
-    background: url('../../../public/icons/soc/Рисунок8.png');
+    background: url('/public/icons/soc/Рисунок8.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:first-child li:nth-child(3){
-    background: url('../../../public/icons/soc/Рисунок9.png');
+    background: url('/public/icons/soc/Рисунок9.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:first-child li:last-child{
-    background: url('../../../public/icons/soc/Рисунок10.png');
+    background: url('/public/icons/soc/Рисунок10.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:nth-child(2) li:first-child{
-    background: url('../../../public/icons/soc/Рисунок11.png');
+    background: url('/public/icons/soc/Рисунок11.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:nth-child(2) li:nth-child(2){
-    background: url('../../../public/icons/soc/Рисунок12.png');
+    background: url('/public/icons/soc/Рисунок12.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
 }
 .Soc ul div:nth-child(2) li:last-child{
-    background: url('../../../public/icons/soc/Рисунок13.png');
+    background: url('/public/icons/soc/Рисунок13.png');
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center left;
