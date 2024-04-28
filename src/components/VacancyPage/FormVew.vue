@@ -2,24 +2,27 @@
 
 <template>
     <div class="form">
-        <div class="text">
+        <div class="text-form">
             <h1>Отправить резюме</h1>
-            <p>Поскольку вы работаете с одним из лучших сайтов IT-компаний,<br> 
-                я рекомендую вам следовать следующим рекомендациям:</p>
+            <p>Поскольку вы работаете с одной из лучшей IT-компаний,<br> 
+                мы рекомендуем вам следовать следующим рекомендациям:</p>
+                <p>Заполните форму; <br> Приложите резюме во вложение;<br>  Отправить нам документы:</p>
                 <ul>
+                <li style="margin-bottom: 15px;">По следующим вакансиям:</li> 
                 <li>Фронтенд (ReactJS)</li>
                 <li>Бэкэнд (PHP)</li>
                 <li>UI/UX дизайнер</li>
                 <li>Менеджер проекта (PM)</li>
                 <li>Мобильный разработчик (React)</li>
             </ul>
-                <p>Мы приветствуем каждого кандиду, претенующего на наши<br>
-                    вакансии. Присоединяйтесь к нам и нашему дружному<br>
-                    коллективу, который гарантирует личностное развитие и<br>
+                <p>Мы приветствуем и будем рады каждого кандидату, <br>претендующего на наши
+                    вакансии. <br>
+                     Присоединяйтесь к нам и нашему дружному
+                    коллективу, <br>который гарантирует личностное развитие и достойную
                     уверенность в завтрашнем дне!</p>
         </div>
      <div class="information_form">
-        <h2>Заполните форму!</h2>
+        <h2>Заполните форму</h2>
         <div class="name">
             <h3>Ваше имя</h3>
             <input type="text" placeholder="Имя">
@@ -50,18 +53,22 @@
     align-items: center;
     padding-top: 100px;
 }
+.text-form{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 /*text info*/
-.text h1{
-    margin-bottom: -60px;
+.text-form h1{
     color: #fff;
     font-weight: bold;
 }
-.text p{
-    margin-bottom: 20px;
+.text-form p{
+    margin-bottom: 10px;
     color: #8F8F8F;
 }
-.text ul{
-    margin-bottom: -70px;
+.text-form ul{
     color: #8F8F8F;
 }
 .form input{

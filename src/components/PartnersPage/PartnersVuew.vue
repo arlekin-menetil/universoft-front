@@ -15,10 +15,11 @@
         <span style="--i:9;"><a href=""><h3>Код <br>Безопасности</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
         <span style="--i:10;"><a href=""><h3>Security<br> Vision</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
         <span style="--i:11;"><a href=""><h3>Teltonika</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
+        <span style="--i:12;"><a href=""><h3>MAS Platform</h3><img src="../../../public/carusel/Group 39509.svg" alt=""></a></span>
     </div>
     <div class="text">
         <h4>Наши партнеры</h4>
-        <h3>Сотрудничество и доверие: кто рядом <br> с нами</h3>
+        <h3>Сотрудничество и доверие тех, кто рядом <br> с нами</h3>
     </div>
 </div>
 </template>
@@ -65,7 +66,7 @@ font-weight: bold;
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i) * 65deg)) translateZ(380px);
+    transform: rotateY(calc(var(--i) * 30deg)) translateZ(380px);
 }
 .box span h3{
     width: 100%;

@@ -30,7 +30,7 @@
                                 </div>
                             <div class="inputBox">
                                     <span>Номер телефона</span>
-                                    <input type="text" placeholder="+998 (9_)-___-__-__">
+                                    <input type="text" placeholder="+998 (__)-___-__-__">
                                 </div>
                             </div>
                             <div class="row100">
@@ -182,13 +182,13 @@ width: 100%;
     color: #fff;
 }
 .inputBox input[type="submit"]{
-    background: #82F7FF;
-    color: rgba(255,255,255, 0.9);
+    background: rgba(10, 148, 190);
+    color: #333;
     border: none;
     border-radius: 20px;
     font-size: 1.1em;
     max-width: 120px;
-    font-weight: 500;
+    font-weight: bold;
     cursor: pointer;
     padding: 14px 15px;
 }
