@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 .text-form{
     height: 560px;

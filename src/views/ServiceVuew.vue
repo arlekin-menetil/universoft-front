@@ -16,10 +16,10 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
                 <source src="/public/video/3d-react.mp4" />
             </video>
             <div class="title">
-                Что мы предлогаем нашим клиентам
+                Предлагаем
             </div>
             <div class="subtitle">
-                "ИТ решения, которые преобразуют ваш бизнес: наши предложения для клиентов, нацеленные на рост и эффективность."
+                "IT решения, которые преобразуют ваш бизнес: наши предложения для клиентов, нацеленные на рост и эффективность."
             </div>
 
             <div class="buttons-left">
@@ -77,6 +77,7 @@ import Footer from '@/components/AllPages/FooterVuew.vue'
     font-size: 32px;
     width: 462px;
     color: #fff;
+    margin-bottom: 15px;
 }
 .services-center .subtitle {
     position: relative;
